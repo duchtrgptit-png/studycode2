@@ -20,6 +20,7 @@ while True:
             print("Đây là danh sách sinh viên hiện có: ")
             for i in sv:
                 i.show()
+
         elif select == 2:
             id = int(input("Hãy nhập ID của sinh viên: "))
             name = input("Hãy nhập tên của sinh viên: ")

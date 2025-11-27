@@ -1,6 +1,6 @@
 class student:
     def __init__(self, id, name):
-        self.id = id
+        self.id = id 
         self.name = name
     def get_id(self):
         return self.id
@@ -8,8 +8,8 @@ class student:
         self.name = name
     def get_name(self):
         return self.name
+    
     def show(self):
-        print(f"nhập ID của bạn: {self.id}")
-        print(f"Nhập tên của bạn: {self.name}")
-        
+        print(f"Hãy nhập ID: {self.id}")
+        print(f"Hãy nhập tên; {self.name}")
         
